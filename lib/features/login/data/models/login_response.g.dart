@@ -8,7 +8,7 @@ part of 'login_response.dart';
 
 LoginResponse _$LoginResponseFromJson(Map<String, dynamic> json) =>
     LoginResponse(
-      name: json['name'] as String?,
+      message: json['message'] as String?,
       userData: json['data'] == null
           ? null
           : UserData.fromJson(json['data'] as Map<String, dynamic>),
@@ -18,7 +18,7 @@ LoginResponse _$LoginResponseFromJson(Map<String, dynamic> json) =>
 
 Map<String, dynamic> _$LoginResponseToJson(LoginResponse instance) =>
     <String, dynamic>{
-      'name': instance.name,
+      'message': instance.message,
       'data': instance.userData,
       'status': instance.status,
       'code': instance.code,
