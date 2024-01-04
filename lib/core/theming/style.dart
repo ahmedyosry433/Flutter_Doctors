@@ -9,9 +9,29 @@ class TextStyles {
     fontSize: 24.sp,
     fontWeight: FontWeightHelper.bold,
   );
+  static TextStyle font16BlackBold = TextStyle(
+    color: Colors.black,
+    fontSize: 16.sp,
+    fontWeight: FontWeightHelper.bold,
+  );
+  static TextStyle font18BlackBold = TextStyle(
+    color: Colors.black,
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.bold,
+  );
+  static TextStyle font18BlackSemiBold = TextStyle(
+    color: Colors.black,
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.semiBold,
+  );
   static TextStyle font16WhiteMedium = TextStyle(
     color: Colors.white,
     fontSize: 16.sp,
+    fontWeight: FontWeightHelper.medium,
+  );
+  static TextStyle font18WhiteMedium = TextStyle(
+    color: Colors.white,
+    fontSize: 18.sp,
     fontWeight: FontWeightHelper.medium,
   );
   static TextStyle font16WhiteSemiBold = TextStyle(
@@ -32,6 +52,16 @@ class TextStyles {
   static TextStyle font13BlueRegular = TextStyle(
     color: ColorsManager.mainBlue,
     fontSize: 13.sp,
+    fontWeight: FontWeightHelper.regular,
+  );
+  static TextStyle font12BlueRegular = TextStyle(
+    color: ColorsManager.mainBlue,
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.regular,
+  );
+  static TextStyle font12BlackRegular = TextStyle(
+    color: Colors.black,
+    fontSize: 12.sp,
     fontWeight: FontWeightHelper.regular,
   );
   static TextStyle font13BlueSemiBold = TextStyle(
@@ -69,6 +99,11 @@ class TextStyles {
     fontSize: 14.sp,
     fontWeight: FontWeightHelper.regular,
   );
+  static TextStyle font11GrayRegular = TextStyle(
+    color: ColorsManager.gray,
+    fontSize: 11.sp,
+    fontWeight: FontWeightHelper.regular,
+  );
   static TextStyle font14LightGrayRegular = TextStyle(
     color: ColorsManager.lightGray,
     fontSize: 14.sp,
@@ -77,6 +112,11 @@ class TextStyles {
   static TextStyle font13GrayRegular = TextStyle(
     color: ColorsManager.gray,
     fontSize: 13.sp,
+    fontWeight: FontWeightHelper.regular,
+  );
+  static TextStyle font12GrayRegular = TextStyle(
+    color: ColorsManager.gray,
+    fontSize: 12.sp,
     fontWeight: FontWeightHelper.regular,
   );
 }
