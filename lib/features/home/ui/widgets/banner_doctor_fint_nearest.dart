@@ -45,6 +45,11 @@ class BannerDoctorAndFingNearest extends StatelessWidget {
               buttonWidth: 109,
               horizontalPadding: 18,
               verticalPadding: 10,
+<<<<<<< Updated upstream
+=======
+
+           
+>>>>>>> Stashed changes
             ))
       ],
     );
