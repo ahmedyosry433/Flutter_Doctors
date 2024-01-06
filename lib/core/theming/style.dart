@@ -119,8 +119,4 @@ class TextStyles {
     fontSize: 12.sp,
     fontWeight: FontWeightHelper.regular,
   );
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

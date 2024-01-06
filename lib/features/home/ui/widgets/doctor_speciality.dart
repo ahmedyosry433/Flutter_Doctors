@@ -30,13 +30,7 @@ class DoctorSpeciality extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-                    
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
                     width: 56.w,
                     height: 56.h,
                     decoration: const BoxDecoration(

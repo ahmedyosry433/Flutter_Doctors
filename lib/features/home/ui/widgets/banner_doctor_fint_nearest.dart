@@ -5,7 +5,7 @@ import '../../../../core/theming/style.dart';
 import '../../../../core/widgets/app_text_button.dart';
 
 class BannerDoctorAndFingNearest extends StatelessWidget {
-  const BannerDoctorAndFingNearest({super.key});
+   const BannerDoctorAndFingNearest({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -45,20 +45,19 @@ class BannerDoctorAndFingNearest extends StatelessWidget {
               buttonWidth: 109,
               horizontalPadding: 18,
               verticalPadding: 10,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
+
+
+
 
            
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
+
+
             ))
       ],
     );
   }
-<<<<<<< Updated upstream
+
 }
-=======
-}
->>>>>>> Stashed changes
+
+

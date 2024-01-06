@@ -47,11 +47,7 @@ class RecommendationDoctor extends StatelessWidget {
                               .copyWith(height: 1.7.h)),
                       Row(
                         children: [
-<<<<<<< Updated upstream
-                          Icon(
-=======
                           const Icon(
->>>>>>> Stashed changes
                             Icons.star_rate_rounded,
                             color: Colors.yellow,
                           ),
@@ -72,8 +68,4 @@ class RecommendationDoctor extends StatelessWidget {
       ),
     );
   }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

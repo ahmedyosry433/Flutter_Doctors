@@ -9,7 +9,7 @@ import 'widgets/doctor_speciality.dart';
 import 'widgets/top_text_and_notifications_buttton.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,12 +21,12 @@ class HomeScreen extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 16.w),
               child: Column(
                 children: [
-                  const TopTextAndNotificationButton(),
+                   const TopTextAndNotificationButton(),
                   verticalSpace(40),
-                  const BannerDoctorAndFingNearest(),
+                   const BannerDoctorAndFingNearest(),
                   verticalSpace(24),
                   const DoctorSpeciality(),
-                  const RecommendationDoctor(),
+                   const RecommendationDoctor(),
                 ],
               ),
             ),
@@ -84,8 +84,6 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
-<<<<<<< Updated upstream
+
 }
-=======
-}
->>>>>>> Stashed changes
+
