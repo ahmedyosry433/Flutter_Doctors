@@ -84,4 +84,8 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

@@ -31,8 +31,11 @@ class DoctorSpeciality extends StatelessWidget {
                 children: [
                   Container(
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
                     
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                     width: 56.w,
                     height: 56.h,
