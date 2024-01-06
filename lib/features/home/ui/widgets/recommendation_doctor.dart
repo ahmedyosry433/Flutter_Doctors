@@ -47,7 +47,7 @@ class RecommendationDoctor extends StatelessWidget {
                               .copyWith(height: 1.7.h)),
                       Row(
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.star_rate_rounded,
                             color: Colors.yellow,
                           ),

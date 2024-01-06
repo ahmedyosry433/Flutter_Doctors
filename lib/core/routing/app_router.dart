@@ -9,6 +9,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../features/home/ui/home_screen.dart';
 import '../../features/onboarding/onboradingScreen.dart';
+import '../../features/signup/ui/signup_screen.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
@@ -29,6 +30,10 @@ class AppRouter {
       case Routes.homeScreen:
         return MaterialPageRoute(
           builder: (_) => const HomeScreen(),
+        );
+      case Routes.signupScreen:
+        return MaterialPageRoute(
+          builder: (_) => const SignupScreen(),
         );
 
       default:
