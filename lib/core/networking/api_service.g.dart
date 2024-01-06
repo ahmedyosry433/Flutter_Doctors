@@ -63,7 +63,7 @@ class _ApiService implements ApiService {
     )
             .compose(
               _dio.options,
-              'auth/signup',
+              'auth/register',
               queryParameters: queryParameters,
               data: _data,
             )
