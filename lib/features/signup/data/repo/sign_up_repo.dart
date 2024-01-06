@@ -9,7 +9,7 @@ class SignupRepo {
 
   SignupRepo(this._apiService);
 
-  Future<ApiResult<SignupResponse>> siginUp(
+  Future<ApiResult<SignupResponse>> signup(
     SignupRequestBody signupRequestBody,
   ) async {
     try {

@@ -4,7 +4,7 @@ import 'package:doctor_appointment/core/theming/style.dart';
 import 'package:flutter/material.dart';
 
 class PassWordValidation extends StatelessWidget {
-    final bool hasLowerCase;
+  final bool hasLowerCase;
   final bool hasUpperCase;
   final bool hasSpecialCharacters;
   final bool hasNumber;
@@ -46,10 +46,7 @@ class PassWordValidation extends StatelessWidget {
         Text(
           text,
           style: TextStyles.font13DarkBlueRegular.copyWith(
-            decoration: hasValidated ? TextDecoration.lineThrough : null,
-            decorationColor: Colors.green,
-            decorationThickness: 2,
-            color: hasValidated ? ColorsManager.gray : ColorsManager.darkBlue,
+            color: hasValidated ? Colors.green : ColorsManager.darkBlue,
           ),
         )
       ],
