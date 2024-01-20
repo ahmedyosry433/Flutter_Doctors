@@ -116,8 +116,11 @@ class _SignupFormState extends State<SignupForm> {
               ),
               hintText: 'Password Confirmation',
               validator: (value) {
-                if (value == null || value.isEmpty) {
-                  return 'Please Enter A Vaild Password';
+                if (value == null ||
+                    value.isEmpty ||
+                    value !=
+                        context.read<SignupCubit>().passwordController.text) {
+                  return 'Password Not match';
                 }
               }),
           verticalSpace(8),
