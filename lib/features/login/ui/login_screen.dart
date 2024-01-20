@@ -1,13 +1,12 @@
 import 'package:doctor_appointment/core/helper/spacing.dart';
 import 'package:doctor_appointment/core/theming/style.dart';
-import 'package:doctor_appointment/features/login/data/models/login_request_body.dart';
 import 'package:doctor_appointment/features/login/logic/cubit/login_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../core/widgets/app_text_button.dart';
-import 'widget/already_have_account_text.dart';
+import 'widget/dont_have_account_text.dart';
 import 'widget/email_and_password.dart';
 import 'widget/login_bloc_lisener.dart';
 import 'widget/terms_and_conditions.dart';
@@ -55,7 +54,7 @@ class LoginScreen extends StatelessWidget {
                     verticalSpace(16),
                     const TermsAndConditions(),
                     verticalSpace(60),
-                    const AlreadyHaveAccountText(),
+                    const DontHaveAccountText(),
                     const LoginBlocListener(),
                   ],
                 )
@@ -69,11 +68,7 @@ class LoginScreen extends StatelessWidget {
 
   void validateThenDoLogin(BuildContext context) {
     if (context.read<LoginCubit>().formKey.currentState!.validate()) {
-      context.read<LoginCubit>().emitLoginStates(
-            LoginRequestBody(
-                email: context.read<LoginCubit>().emailController.text,
-                password: context.read<LoginCubit>().passwordController.text),
-          );
+      context.read<LoginCubit>().emitLoginStates();
     }
   }
 }

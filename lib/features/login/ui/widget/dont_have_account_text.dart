@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 import '../../../../core/routing/routes.dart';
 
-class AlreadyHaveAccountText extends StatelessWidget {
-  const AlreadyHaveAccountText({super.key});
+class DontHaveAccountText extends StatelessWidget {
+  const DontHaveAccountText({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class AlreadyHaveAccountText extends StatelessWidget {
         text: TextSpan(
           children: [
             TextSpan(
-              text: 'Already have an account yet? ',
+              text: 'don\'t have an account yet? ',
               style: TextStyles.font13DarkBlueRegular,
             ),
             TextSpan(
