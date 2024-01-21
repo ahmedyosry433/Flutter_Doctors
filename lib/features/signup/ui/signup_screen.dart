@@ -1,7 +1,7 @@
-import 'package:doctor_appointment/core/helper/spacing.dart';
-import 'package:doctor_appointment/features/signup/ui/widget/already_have_account_text.dart';
-import 'package:doctor_appointment/features/signup/ui/widget/sign_up_bloc_listener.dart';
-import 'package:doctor_appointment/features/signup/ui/widget/terms_and_conditions.dart';
+import '../../../core/helper/spacing.dart';
+import 'widget/already_have_account_text.dart';
+import 'widget/sign_up_bloc_listener.dart';
+import 'widget/terms_and_conditions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

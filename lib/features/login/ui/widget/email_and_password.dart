@@ -1,5 +1,5 @@
-import 'package:doctor_appointment/core/helper/app_regex.dart';
-import 'package:doctor_appointment/features/login/logic/cubit/login_cubit.dart';
+import '../../../../core/helper/app_regex.dart';
+import '../../logic/cubit/login_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

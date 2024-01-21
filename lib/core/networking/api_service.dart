@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:doctor_appointment/core/networking/api_constants.dart';
-import 'package:doctor_appointment/features/login/data/models/login_request_body.dart';
-import 'package:doctor_appointment/features/signup/data/models/sign_up_response.dart';
+import '../../features/user_profile/data/model/user_profile_response.dart';
+import 'api_constants.dart';
+import '../../features/login/data/models/login_request_body.dart';
+import '../../features/signup/data/models/sign_up_response.dart';
 import 'package:retrofit/http.dart';
 
 import '../../features/login/data/models/login_response.dart';
@@ -20,5 +21,9 @@ abstract class ApiService {
   @POST(ApiConstants.signup)
   Future<SignupResponse> signup(
     @Body() SignupRequestBody signupRequestBody,
+  );
+  @GET(ApiConstants.userProfile)
+  Future<UserProfileResponse> getUserProfile(
+    @Header('Authorization') String token,
   );
 }

@@ -1,5 +1,5 @@
-import 'package:doctor_appointment/core/theming/colors.dart';
-import 'package:doctor_appointment/core/theming/style.dart';
+import '../theming/colors.dart';
+import '../theming/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

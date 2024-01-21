@@ -1,7 +1,7 @@
-import 'package:doctor_appointment/core/helper/spacing.dart';
-import 'package:doctor_appointment/core/widgets/app_text_form_field.dart';
-import 'package:doctor_appointment/core/widgets/app_text_phone_field.dart';
-import 'package:doctor_appointment/features/login/ui/widget/password_validations.dart';
+import '../../../../core/helper/spacing.dart';
+import '../../../../core/widgets/app_text_form_field.dart';
+import '../../../../core/widgets/app_text_phone_field.dart';
+import '../../../login/ui/widget/password_validations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
