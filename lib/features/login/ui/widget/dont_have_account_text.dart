@@ -1,5 +1,5 @@
-import 'package:doctor_appointment/core/helper/extensions.dart';
-import 'package:doctor_appointment/core/theming/style.dart';
+import '../../../../core/helper/extensions.dart';
+import '../../../../core/theming/style.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/routing/routes.dart';

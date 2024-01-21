@@ -22,7 +22,6 @@ class SharedPreferencesHelper {
       throw "unknown value type :(";
     }
 
-    print('___________________________ key: $key, value: $value');
   }
 
  static removeAllKeys() async {

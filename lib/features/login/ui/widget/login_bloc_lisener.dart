@@ -1,11 +1,11 @@
-import 'package:doctor_appointment/core/helper/extensions.dart';
-import 'package:doctor_appointment/core/theming/colors.dart';
-import 'package:doctor_appointment/features/login/logic/cubit/login_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../../../core/helper/extensions.dart';
 import '../../../../core/routing/routes.dart';
+import '../../../../core/theming/colors.dart';
 import '../../../../core/theming/style.dart';
+import '../../logic/cubit/login_cubit.dart';
 import '../../logic/cubit/login_state.dart';
 
 class LoginBlocListener extends StatelessWidget {

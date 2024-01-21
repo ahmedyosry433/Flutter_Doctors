@@ -1,12 +1,15 @@
-import 'package:doctor_appointment/core/helper/shared_preferences_helper.dart';
-import 'package:doctor_appointment/features/login/data/models/login_request_body.dart';
-import 'package:doctor_appointment/features/login/data/repos/login_repo.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../../../core/helper/shared_preferences_helper.dart';
+import '../../data/models/login_request_body.dart';
+import '../../data/repos/login_repo.dart';
 import 'login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {
+
   final LoginRepo _loginRepo;
+  
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   final formKey = GlobalKey<FormState>();

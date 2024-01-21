@@ -1,6 +1,6 @@
-import 'package:doctor_appointment/core/helper/spacing.dart';
-import 'package:doctor_appointment/core/theming/colors.dart';
-import 'package:doctor_appointment/core/theming/style.dart';
+import '../../../../core/helper/spacing.dart';
+import '../../../../core/theming/colors.dart';
+import '../../../../core/theming/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

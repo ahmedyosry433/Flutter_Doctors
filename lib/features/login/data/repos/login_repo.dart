@@ -1,8 +1,8 @@
-import 'package:doctor_appointment/core/networking/api_error_handler.dart';
-import 'package:doctor_appointment/core/networking/api_result.dart';
-import 'package:doctor_appointment/core/networking/api_service.dart';
-import 'package:doctor_appointment/features/login/data/models/login_request_body.dart';
-import 'package:doctor_appointment/features/login/data/models/login_response.dart';
+import '../../../../core/networking/api_error_handler.dart';
+import '../../../../core/networking/api_result.dart';
+import '../../../../core/networking/api_service.dart';
+import '../models/login_request_body.dart';
+import '../models/login_response.dart';
 
 class LoginRepo {
   final ApiService _apiService;

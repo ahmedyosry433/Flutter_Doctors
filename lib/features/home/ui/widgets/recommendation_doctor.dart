@@ -1,7 +1,7 @@
-import 'package:doctor_appointment/core/helper/spacing.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../core/helper/spacing.dart';
 import '../../../../core/theming/style.dart';
 
 class RecommendationDoctor extends StatelessWidget {
