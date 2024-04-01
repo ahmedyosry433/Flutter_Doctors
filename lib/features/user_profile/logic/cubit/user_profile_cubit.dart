@@ -23,7 +23,6 @@ class UserProfileCubit extends Cubit<UserProfileState> {
 
     response.when(success: (UserProfileResponse) {
       userProfileData = UserProfileResponse;
-      print('_________________________________________$UserProfileResponse');
       emit(UserProfileState.success(UserProfileResponse));
     }, failure: (error) {
       emit(UserProfileState.error(error: error.toString()));
